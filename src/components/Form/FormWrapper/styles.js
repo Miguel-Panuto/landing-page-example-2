@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: ${props => {
-      if(props.margin) {
-          return "10px"
-      }
-      return "40px";
-  }};
   input {
     border: 0;
     border-radius: 5px;

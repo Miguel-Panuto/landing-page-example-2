@@ -34,11 +34,10 @@ const Form = () => (
             required={true}
             placeholder="Phone number"
           />
-          <div>
+          <div className="last"> 
             <input type="submit" name="action" value="send"/>
           </div>
-
-          <div>
+          <div className="last">
               <p>* Required fields</p>
           </div>
         </form>
