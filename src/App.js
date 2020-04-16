@@ -4,6 +4,7 @@ import GlobalStyles from './global-styles';
 import Header from './components/Header';
 import Form from './components/Form';
 import Call from './components/Call'
+import Gallery from './components/Gallery'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Form />
       <Call />
+      <Gallery />
     </>
   );
 }
