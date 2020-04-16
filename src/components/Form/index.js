@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
+import { FiChevronDown } from 'react-icons/fi'
 
-import { Cover, FormContainer, FormContent } from "./styles";
-import FormWrapper from "./FormWrapper";
-// import { Container } from "../../global-styles";
+import { Cover, FormContainer, FormContent, ArrowDownContainer } from './styles';
+import FormWrapper from './FormWrapper';
 
 const Form = () => (
   <Cover>
@@ -43,6 +43,9 @@ const Form = () => (
           </div>
         </form>
       </FormContent>
+      <ArrowDownContainer>
+        <FiChevronDown size={50} color="#fff"/>
+      </ArrowDownContainer>
     </FormContainer>
   </Cover>
 );

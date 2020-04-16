@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: ${props => {
@@ -8,8 +8,9 @@ export const Container = styled.div`
       return "40px";
   }};
   input {
+    border: 0;
+    border-radius: 5px;
     width: 100%;
-    border: 1px solid #fff;
     background-color: #999;
     color: #fff;
     height: 45px;

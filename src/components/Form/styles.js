@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Container } from "../../global-styles";
+import styled from 'styled-components';
+import { Container } from '../../global-styles';
 
 export const Cover = styled.section`
   width: 100%;
@@ -41,7 +41,7 @@ export const FormContent = styled.div`
       color: #fff;
       width: 100%;
       height: 50px;
-      font-size: 25px;
+      font-size: 1.5rem;
       border: 0;
     }
 
@@ -52,4 +52,15 @@ export const FormContent = styled.div`
     div p {
       color: #555;
     }
+`;
+
+export const ArrowDownContainer = styled.div`
+  position: relative;
+  top: 97%;
+  left: 50%;
+  right: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #70c;
 `;

@@ -3,6 +3,7 @@ import React from 'react';
 import GlobalStyles from './global-styles';
 import Header from './components/Header';
 import Form from './components/Form';
+import Call from './components/Call'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <Form />
+      <Call />
     </>
   );
 }
