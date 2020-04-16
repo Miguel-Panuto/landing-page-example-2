@@ -2,16 +2,10 @@ import styled from "styled-components";
 
 export const Head = styled.header`
     background-color: #555;
-    padding: 10px 2%;
+    padding: 10px 2% 30px 2%;
     @media screen and (max-width: 510px){
         text-align: center;
     }
-`;
-
-export const Container = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
 `;
 
 export const Logo = styled.div`

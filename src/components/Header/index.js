@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Head, Container, Logo } from './styles';
-import { Clear } from '../../global-styles'
+import { Head, Logo } from './styles';
+import { Clear, Container } from '../../global-styles'
 
 const Header = () => (
     <Head>
